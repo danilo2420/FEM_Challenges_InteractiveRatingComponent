@@ -1,0 +1,9 @@
+@import url('global.css');
+
+.container1 {
+    margin: 24px;
+    padding: 28.5px 24px;
+
+    background: radial-gradient(var(--gradient0), var(--gradient1));
+    border-radius: 16px;
+}

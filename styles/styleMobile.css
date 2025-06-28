@@ -4,7 +4,7 @@
 .container1 {
     /* 
     display: none;
-    */    
+    */  
 }
 
 .container1__iconBox {
@@ -120,15 +120,15 @@
 }
 
 /* Media queries */
-@media (min-width: 550px) {
+@media (min-width: 500px) {
     .container {
         box-sizing: border-box;
         width: 412px;
 
         padding: 34.5px 30.5px;
-        
     }
 
+    /* Container 1 */
     .container1__iconBox {
         margin-bottom: 16px;
     }
@@ -168,5 +168,37 @@
         font-weight: 600;
         line-height: 24px;
         letter-spacing: 0.17px;
+    }
+
+    /* Container 2 */
+    .container {
+        padding: 44.5px 36px;
+
+        gap: 32px;
+    }
+
+    .container2__image {
+        width: 162px;
+    }
+
+    .container2__chip {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0px;
+    }
+
+    .container2__content__title {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0px;
+    }
+
+    .container2__content__text {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0px;
     }
 }

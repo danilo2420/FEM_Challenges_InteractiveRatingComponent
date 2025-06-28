@@ -6,4 +6,42 @@
 
     background: radial-gradient(var(--gradient0), var(--gradient1));
     border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.container1__iconBox {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    background-color: var(--grey900);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1__text {
+    color: var(--grey500);
+}
+
+.container1__numbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1__numbers__item {
+    width: 42px;
+    height: 42px;
+
+    border-radius: 50%;
+    background-color: var(--grey900);
+    color: var(--grey500);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

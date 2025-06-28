@@ -124,11 +124,16 @@
     .container {
         box-sizing: border-box;
         width: 412px;
-
         padding: 34.5px 30.5px;
+
+        border-radius: 32px;
     }
 
     /* Container 1 */
+    .container1 {
+        gap: 16px !important;
+    }
+
     .container1__iconBox {
         margin-bottom: 16px;
     }
@@ -161,6 +166,17 @@
         height: 51px;
     }
 
+    .container1__numbers__item:hover {
+        color: var(--grey900);
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .container1__numbers__item--chosen {
+        background-color: var(--orange);
+        color: var(--grey900);
+    }
+
     .container1__button {
         padding: 12.5px;
 
@@ -168,6 +184,14 @@
         font-weight: 600;
         line-height: 24px;
         letter-spacing: 0.17px;
+    }
+
+    .container1__button:hover {
+        cursor: pointer;
+    }
+
+    .container1__button:active {
+        background-color: white;
     }
 
     /* Container 2 */

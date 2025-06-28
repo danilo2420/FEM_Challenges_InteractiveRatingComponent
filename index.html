@@ -6,43 +6,43 @@
   <title>Interactive Rating Component</title>
   <link rel="icon" href="images/icon-star.svg">
 
-  <link rel="stylesheet" href="styles/styleMobile.css">
+  <link rel="stylesheet" href="styles/style.css">
   <script defer src="scripts/main.js"></script>
 </head>
 <body>
   <!-- Container 1 -->
-  <div class="container1 container">
+  <div id="container1" class="container1 container">
     <div class="container1__iconBox">
       <img src="images/icon-star.svg" alt="Star">
     </div>
     <div class="container1__title tp2">How did we do?</div>
     <div class="container1__text tp5">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</div>
-    <div class="container1__numbers">
-      <div class="container1__numbers__item tp5--bold">
+    <div id="numberContainer" class="container1__numbers">
+      <div class="container1__numbers__item tp5--bold" data-number="1">
         <div class="container1__numbers__item__content">1</div>
       </div>
-      <div class="container1__numbers__item tp5--bold">
+      <div class="container1__numbers__item tp5--bold" data-number="2">
         <div class="container1__numbers__item__content">2</div>
       </div>
-      <div class="container1__numbers__item tp5--bold">
+      <div class="container1__numbers__item tp5--bold" data-number="3">
         <div class="container1__numbers__item__content">3</div>
       </div>
-      <div class="container1__numbers__item tp5--bold">
+      <div class="container1__numbers__item tp5--bold" data-number="4">
         <div class="container1__numbers__item__content">4</div>
       </div>
-      <div class="container1__numbers__item tp5--bold">
+      <div class="container1__numbers__item tp5--bold" data-number="5">
         <div class="container1__numbers__item__content">5</div>
       </div>
     </div>
-    <button class="container1__button">
+    <button id="submitButton" class="container1__button">
       <div class="container1__button__content">SUBMIT</div>
     </button>
   </div>
   <!-- Container 2 -->
-   <div class="container2 container">
+   <div id="container2" class="container2 container">
     <img src="images/illustration-thank-you.svg" class="container2__image">
     <div class="container2__chip tp5">
-      <div class="container2__chip__content">You selected 4 out of 5</div>
+      <div id="output" class="container2__chip__content">You selected 4 out of 5</div>
     </div>
     <div class="container2__content">
       <div class="container2__content__title tp2">Thank you!</div>

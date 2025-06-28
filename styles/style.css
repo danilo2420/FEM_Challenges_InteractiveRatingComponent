@@ -119,6 +119,11 @@
     color: var(--grey500);
 }
 
+.container1__numbers__item--chosen {
+    background-color: var(--orange);
+    color: var(--grey900);
+}
+
 /* Media queries */
 @media (min-width: 500px) {
     .container {
@@ -172,11 +177,6 @@
         color: var(--grey900);
         background-color: white;
         cursor: pointer;
-    }
-
-    .container1__numbers__item--chosen {
-        background-color: var(--orange);
-        color: var(--grey900);
     }
 
     .container1__button {

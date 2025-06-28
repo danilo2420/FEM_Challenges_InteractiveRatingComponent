@@ -164,6 +164,8 @@
     .container1__numbers__item {
         width: 51px;
         height: 51px;
+
+        transition: background-color 0.2s, color 0.2s;
     }
 
     .container1__numbers__item:hover {
@@ -184,6 +186,8 @@
         font-weight: 600;
         line-height: 24px;
         letter-spacing: 0.17px;
+
+        transition: background-color 0.1s;
     }
 
     .container1__button:hover {

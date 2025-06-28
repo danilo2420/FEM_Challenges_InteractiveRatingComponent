@@ -53,3 +53,22 @@
     left: 1px;
     top: 1px;
 }
+
+.container1__button {
+    all: unset;
+
+    background-color: var(--orange);
+    border-radius: 22.5px;
+    padding: 15px;
+    color: var(--grey950);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* tp5--bold */
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1.87px;
+}

@@ -1,15 +1,10 @@
 @import url('global.css');
 
+/* Container 1 */
 .container1 {
-    margin: 24px;
-    padding: 28.5px 24px;
-
-    background: radial-gradient(var(--gradient0), var(--gradient1));
-    border-radius: 16px;
-
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+    /* 
+    display: none;
+    */    
 }
 
 .container1__iconBox {
@@ -71,4 +66,48 @@
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 1.87px;
+}
+
+/* Container 2 */
+.container2 {
+    padding: 36px 24px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* */
+    display: none;
+}
+
+.container2__image {
+    width: 144px;
+}
+
+.container2__chip {
+    padding: 6px 12px;
+    
+    border-radius: 22.5px;
+    background-color: var(--grey900);
+    color: var(--orange);
+
+    position: relative;
+}
+
+.container2__chip__content {
+    position: relative;
+
+    top: 1px;
+}
+
+.container2__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.container2__content__text {
+    text-align: center;
+    color: var(--grey500);
 }

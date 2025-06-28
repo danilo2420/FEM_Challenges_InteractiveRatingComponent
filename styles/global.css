@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* General */
 :root {
     /* Colors */
     --white: #FFF;
@@ -25,6 +26,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Components */
+
+.container {
+    margin: 24px;
+    padding: 28.5px 24px;
+
+    background: radial-gradient(var(--gradient0), var(--gradient1));
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 /* Typographies */

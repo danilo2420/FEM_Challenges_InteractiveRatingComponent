@@ -44,4 +44,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: relative;
+}
+
+.container1__numbers__item__content {
+    position: relative;
+    left: 1px;
+    top: 1px;
 }

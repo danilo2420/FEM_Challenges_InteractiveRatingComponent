@@ -66,6 +66,13 @@
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 1.87px;
+
+    position: relative;
+}
+
+.container1__button__content {
+    position: relative;
+    top: 1.5px;
 }
 
 /* Container 2 */
